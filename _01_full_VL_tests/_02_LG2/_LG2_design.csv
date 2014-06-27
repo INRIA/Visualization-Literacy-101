@@ -1,0 +1,73 @@
+"Participant","Practice","Block","Trial","Task","Data","Lines","Question","Layout","Distractor","Ctrs","Ans","Vals","Track","Choices","Planets","AnsTable","ValsTable","TrackTable","ChoicesTable"
+0,"false",1,1,"max","med",4,"interpretation","single",0,"US28;US20;US2;LIT","LIT"," ",,"US28;US20;US2;LIT","Arden;Lumin;Habranha;Arima","LIT"," ",,"US28;US20;US2;LIT"
+0,"false",1,2,"max","med",4,"interpretation","single",0,"US31;US33;US27;POL","POL"," ",,"US31;US33;US27;POL","Tanipal;Metaxas;Sakaar;Korell",," ",,
+0,"false",1,3,"max","med",4,"interpretation","single",0,"US35;US15;US13;US26","US13"," ",,"US35;US15;US13;US26","Calaton;Blasusarr;Cirq;Orinda",," ",,
+0,"false",1,4,"max","med",4,"interpretation","single",0,"CZE;US39;US1;GBR","US1"," ",,"CZE;US39;US1;GBR","Thordia;Kobold;Opal;Quon",," ",,
+0,"false",1,5,"max","med",4,"interpretation","single",0,"AUT;EU10;UK6;US43","EU10"," ",,"AUT;EU10;UK6;US43","Timor;Ruzhena;Arden;Sayshell",," ",,
+0,"false",1,6,"max","med",4,"interpretation","single",0,"SVK;BEL;US9;US37","SVK"," ",,"SVK;BEL;US9;US37","Cerdin;Thordia;Dyofor;Helicon",," ",,
+0,"false",2,1,"min","med",4,"interpretation","single",0,"US7;US37;FRA;LIT","US24"," ",,"US7;US37;FRA;LIT","Daribow;Elysia;Braal;Garon","US7"," ",,"US7;US37;FRA;LIT"
+0,"false",2,2,"min","med",4,"interpretation","single",0,"US13;US33;US16;US45","US33"," ",,"US13;US33;US16;US45","Dhor;Kalanor;Marvan;Kobold",," ",,
+0,"false",2,3,"min","med",4,"interpretation","single",0,"NOR;FRA;LIT;BEL","NOR"," ",,"NOR;FRA;LIT;BEL","Arrarat;Tenebra;Kathoon;Vormir",," ",,
+0,"false",2,4,"min","med",4,"interpretation","single",0,"CZE;US12;HNG;UK2","UK2"," ",,"CZE;US12;HNG;UK2","Ryut;Tanith;Serevan;Livia",," ",,
+0,"false",2,5,"min","med",4,"interpretation","single",0,"NDL;IRL;CRO;US23","NDL"," ",,"NDL;IRL;CRO;US23","Glazzon;Pacem;Maag;Samstead",," ",,
+0,"false",2,6,"min","med",4,"interpretation","single",0,"SVN;DEU;US40;US32","US32"," ",,"SVN;DEU;US40;US32","Miranda;Locris;Lusus;Almerac",," ",,
+0,"false",3,1,"trend","med",4,"interpretation","single",0,"US36;US30;UK2;US15","Yes"," ",,"Yes;No","Hajor;Maltus;Myrg;Trom","Yes"," ",,"Yes;No"
+0,"false",3,2,"trend","med",4,"interpretation","single",0,"US18;US6;US38;FRA","Yes"," ",,"Yes;No","Trantor;Kaihapa;Thar;Sarip",," ",,
+0,"false",3,3,"trend","med",4,"interpretation","single",0,"US20;JPN;US22;US8","No"," ",,"Yes;No","Zoon;Graxos;Tanith;Karna",," ",,
+0,"false",3,4,"trend","med",4,"interpretation","single",0,"UK3;US37;NOR;UK1","No"," ",,"Yes;No","Kaihapa;Galtea;Qualar;Fafnir",," ",,
+0,"false",3,5,"trend","med",4,"interpretation","single",0,"US33;EU9;US19;EU8","Yes"," ",,"Yes;No","Samstead;Cil;Giganda;Krelar",," ",,
+0,"false",3,6,"trend","med",4,"interpretation","single",0,"US27;US43;US13;US29","Yes"," ",,"Yes;No","Garon;Aerie;Taur;Clatius",," ",,
+0,"false",4,1,"intersection","med",4,"interpretation","single",0,"AUT;US5;US29;SWE","US29",9.8,,"AUT;US5;US29;SWE","Deneb;Salinn;Maag;Strontia","US29",10.1,,"AUT;US5;US29;SWE"
+0,"false",4,2,"intersection","med",4,"interpretation","single",0,"UK5;US4;EU11;CYP","US4",10.1,,"UK5;US4;EU11;EU8","Ruzhena;Braal;Graxos;Sayshell",," ",,
+0,"false",4,3,"intersection","med",4,"interpretation","single",0,"GBR;ROU;US37;US18","ROU",7.8,,"GBR;ROU;US37;US18","Eos;Aerie;Giganda;Snatanni",," ",,
+0,"false",4,4,"intersection","med",4,"interpretation","single",0,"SVK;US9;SVN;EU9","SVK",18.7666666667,,"SVK;US9;SVN;EU9","Orsha;Helicon;Galtea;Zamaron",," ",,
+0,"false",4,5,"intersection","med",4,"interpretation","single",0,"UK3;US32;US42;US45","US45",6.7666666667,,"UK3;US32;US42;US45","Mardru;Tempe;Hadley;Glazzon",," ",,
+0,"false",4,6,"intersection","med",4,"interpretation","single",0,"HNG;US38;DNK;BUL","BUL",16.1666666667,,"HNG;US38;DNK;BUL","Thordia;Deemi;Wanda;Opal",," ",,
+0,"false",5,1,"average","med",4,"interpretation","single",0,"US12;US38;US20;US31",6.5," ",,,"Ventura;Taur;Vengar;Locris",6.6," ",,"4.8;6.6;8.4;10.2"
+0,"false",5,2,"average","med",4,"interpretation","single",0,"BEL;US1;DEU;GBR",7.3," ",,"5.8;7.3;8.8;10.3","Darbia;Cerdin;Ramnos;Sputa",," ",,
+0,"false",5,3,"average","med",4,"interpretation","single",0,"US9;EU1;US19;US16",6.3," ",,"4.6;6.3;8;9.7","Sirius;Tazenda;Dalarna;Derowd",," ",,
+0,"false",5,4,"average","med",4,"interpretation","single",0,"ESP;AUT;US35;EU7",8.6," ",,"8.6;13.2;17.8;22.4","Argo;Winath;Zakkaria;Arden",," ",,
+0,"false",5,5,"average","med",4,"interpretation","single",0,"UK4;EU8;LUX;US43",6.1," ",,"4.1;6.1;8.1;10.1","Altair;Comagrave;Gallo;Burley",," ",,
+0,"false",5,6,"average","med",4,"interpretation","single",0,"LIT;CRO;ROU;US14",9.8," ",,"6.9;9.8;12.7;15.6","Tharce;Baronn;Vega;Horst",," ",,
+0,"false",6,1,"trendComp","med",4,"interpretation","single",0,"NDL;US10;US39;US20","US10"," ",,"NDL;US10;US39;US20","Arcadia;Braal;Comagrave;Krypton","US10"," ",,"NDL;US10;US39;US20"
+0,"false",6,2,"trendComp","med",4,"interpretation","single",0,"US22;UK6;FRA;EU2","US22"," ",,"US22;UK6;FRA;EU2","Repler;Elysia;Asquith;Astra",," ",,
+0,"false",6,3,"trendComp","med",4,"interpretation","single",0,"AUT;GBR;BEL;US36","US36"," ",,"AUT;GBR;BEL;US36","Gaia;Rann;Orsha;Sakaar",," ",,
+0,"false",6,4,"trendComp","med",4,"interpretation","single",0,"US31;EU5;IRL;US44","IRL"," ",,"US31;EU5;IRL;US44","Rexulus;Kreno;Erebus;Gaolus",," ",,
+0,"false",6,5,"trendComp","med",4,"interpretation","single",0,"PRT;US16;HNG;US33","PRT"," ",,"PRT;US16;HNG;US33","Kalanor;Annubis;Shokodo;Deemi",," ",,
+0,"false",6,6,"trendComp","med",4,"interpretation","single",0,"US15;USA;US35;AUT","US15"," ",,"US15;USA;US35;AUT","Exxor;Solaria;Madhya;Appelax",," ",,
+0,"false",7,1,"max","med",4,"extrapolation","single",0,"US22;US4;EU7;US15","EU7"," ",,"US22;US4;EU7;US15","Orando;Fafnir;Taur;Sark","EU7"," ",,"US22;US4;EU7;US15"
+0,"false",7,2,"max","med",4,"extrapolation","single",0,"LET;US33;US6;EU10","LET"," ",,"LET;US33;US6;EU10","Glazzon;Bolovax;Rimbor;Angtu",," ",,
+0,"false",7,3,"max","med",4,"extrapolation","single",0,"US25;JPN;US3;CZE","US3"," ",,"US25;JPN;US3;CZE","Ixion;Metaxas;Cron;Ovacron",," ",,
+0,"false",7,4,"max","med",4,"extrapolation","single",0,"SVK;UK1;US8;US36","SVK"," ",,"SVK;UK1;US8;US36","Locris;Tanith;Sputa;Ark",," ",,
+0,"false",7,5,"max","med",4,"extrapolation","single",0,"US28;BUL;US14;SWE","BUL"," ",,"US28;BUL;US14;SWE","Lusus;Tempe;Fluva;Kaihapa",," ",,
+0,"false",7,6,"max","med",4,"extrapolation","single",0,"ITA;US21;DEU;CRO","CRO"," ",,"ITA;US21;DEU;CRO","Mardru;Krypton;Terel;Tazenda",," ",,
+0,"false",8,1,"min","med",4,"extrapolation","single",0,"US3;FIN;US2;FRA","US3"," ",,"US3;FIN;US2;FRA","Lallor;Vulcan;Ungara;Angor","US3"," ",,"US3;FIN;US2;FRA"
+0,"false",8,2,"min","med",4,"extrapolation","single",0,"US38;US33;HNG;CYP","US33"," ",,"US38;US33;HNG;CYP","Pandora;Naltor;Tallallame;Myar",," ",,
+0,"false",8,3,"min","med",4,"extrapolation","single",0,"DNK;US40;IRL;US35","DNK"," ",,"DNK;US40;IRL;US35","Burley;Myrg;Mote Prime;Ryut",," ",,
+0,"false",8,4,"min","med",4,"extrapolation","single",0,"US21;SWE;UK1;NOR","UK1"," ",,"US21;SWE;UK1;NOR","Ark;Muscaria;Gehenna;Delassia",," ",,
+0,"false",8,5,"min","med",4,"extrapolation","single",0,"USA;US16;US37;US8","US8"," ",,"USA;US16;US37;US8","Tharce;Gethen;Debstam;Fluva",," ",,
+0,"false",8,6,"min","med",4,"extrapolation","single",0,"EU4;EU5;US20;NDL","NDL"," ",,"EU4;EU5;US20;NDL","Khondra;Bryak;Vengar;Anuurn",," ",,
+0,"false",9,1,"trend","med",4,"extrapolation","single",0,"US44;GRC;EU6;US24","No"," ",,"Yes;No","Clatius;Livia;Cinna;Yaila","No"," ",,"Yes;No"
+0,"false",9,2,"trend","med",4,"extrapolation","single",0,"FIN;US43;DNK;US30","Yes"," ",,"Yes;No","Solaria;Erebus;Hearth;Hope",," ",,
+0,"false",9,3,"trend","med",4,"extrapolation","single",0,"LET;EU2;EU3;EU1","Yes"," ",,"Yes;No","Bolovax;Khondra;Xarda;Debstam",," ",,
+0,"false",9,4,"trend","med",4,"extrapolation","single",0,"US41;ROU;US6;US31","No"," ",,"Yes;No","Tempe;Kalanor;Salinn;Anarres",," ",,
+0,"false",9,5,"trend","med",4,"extrapolation","single",0,"UK4;USA;US45;SWE","No"," ",,"Yes;No","Snatanni;Garrota;Pacem;Entem",," ",,
+0,"false",9,6,"trend","med",4,"extrapolation","single",0,"US33;US8;SVN;CYP","No"," ",,"Yes;No","Naltor;Vulcan;Tanith;Cerdin",," ",,
+0,"false",10,1,"intersection","med",4,"extrapolation","single",0,"US22;EU8;ESP;FRA","US22",2.7,,"US22;EU8;ESP;FRA","Rann;Pandora;Strontia;Almerac","US22",3,,"US22;EU8;ESP;FRA"
+0,"false",10,2,"intersection","med",4,"extrapolation","single",0,"EST;US32;AUT;ROU","US32",3.25,,"EST;US32;AUT;ROU","Thar;Anuurn;Formalhaut;Zenn",," ",,
+0,"false",10,3,"intersection","med",4,"extrapolation","single",0,"NOR;SVN;EU6;ITA","NOR",2.85,,"NOR;SVN;EU6;ITA","Cil;Ria;Daribow;Tanith",," ",,
+0,"false",10,4,"intersection","med",4,"extrapolation","single",0,"US31;US13;EU7;BEL","US13",3.9,,"US31;US13;EU7;BEL","Comagrave;Xanshi;Thoron;Euterpe",," ",,
+0,"false",10,5,"intersection","med",4,"extrapolation","single",0,"CRO;US12;FRA;US20","US20",2.8,,"CRO;US12;FRA;US20","Synnax;Garth;Horlegor;Beltair",," ",,
+0,"false",10,6,"intersection","med",4,"extrapolation","single",0,"IRL;US34;US8;DNK","US8",2.55,,"IRL;US34;US8;DNK","Saula;Muscaria;Sakaar;Khondra",," ",,
+0,"false",11,1,"average","med",4,"extrapolation","single",0,"EU10;AUT;US4;US10","EU10"," ",,"EU10;EU9;US4;US10","Ciress;Naltor;Zoranel;Rokanan","EU10"," ",,"EU10;EU9;US4;US10"
+0,"false",11,2,"average","med",4,"extrapolation","single",0,"US34;IRL;US11;BUL","BUL"," ",,"US34;IRL;US11;BUL","Vengar;Tront;Bryak;Arcadia",," ",,
+0,"false",11,3,"average","med",4,"extrapolation","single",0,"POL;US20;PRT;HNG","POL"," ",,"POL;US20;PRT;HNG","Mandress;Fafnir;Hivehom;Daxam",," ",,
+0,"false",11,4,"average","med",4,"extrapolation","single",0,"EST;BEL;US27;US21","EST"," ",,"EST;BEL;US27;US21","Hivehom;Sark;Aka;Vonn",," ",,
+0,"false",11,5,"average","med",4,"extrapolation","single",0,"SWE;US17;US28;GBR","US28"," ",,"SWE;US17;US28;GBR","Gethen;Gaia;Miranda;Metaxas",," ",,
+0,"false",11,6,"average","med",4,"extrapolation","single",0,"US3;US8;US9;AUT","US3"," ",,"US3;US8;US9;AUT","Orsha;Zamaron;Daribow;Mote Prime",," ",,
+0,"false",12,1,"trendComp","med",4,"extrapolation","single",0,"US42;US39;US36;BUL","BUL"," ",,"US42;US39;US36;BUL","Marglot;Talok;Dyofor;Calafia","BUL"," ",,"US42;US39;US36;BUL"
+0,"false",12,2,"trendComp","med",4,"extrapolation","single",0,"US10;US17;US30;UK3","US30"," ",,"US10;US17;US30;UK3","Stonus;Asquith;Baaldur;Lumin",," ",,
+0,"false",12,3,"trendComp","med",4,"extrapolation","single",0,"EU9;US2;US44;EU7","US2"," ",,"EU9;US2;US44;EU7","Xandar;Wencory;Rhea;Margrave",," ",,
+0,"false",12,4,"trendComp","med",4,"extrapolation","single",0,"NDL;UK6;US11;USA","US11"," ",,"NDL;UK6;US11;USA","Krelar;Entem;Radole;Zoranel",," ",,
+0,"false",12,5,"trendComp","med",4,"extrapolation","single",0,"FRA;FIN;US38;US31","US31"," ",,"FRA;FIN;US38;US31","Karna;Tanith;Mardru;Daffath",," ",,
+0,"false",12,6,"trendComp","med",4,"extrapolation","single",0,"EU3;BEL;FRA;ESP","ESP"," ",,"EU3;BEL;FRA;ESP","Derowd;Opal;Hiberlac;Terel",," ",,
