@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<html>
+<head>
+	<title>Bar Chart Test</title>
+
+	<!-- JS LIBS -->
+	<script type="text/javascript" src="../_00_static/libs/d3.js"></script>
+	<script type="text/javascript" src="../_00_static/libs/jquery.js"></script>
+
+	<!-- DRAWING FUNCTIONS -->
+	<script type="text/javascript" src="../_00_static/js/general.functions.js"></script>
+	<script type="text/javascript" src="js/draw.stuff.js"></script>
+	<script type="text/javascript" src="js/add.stuff.js"></script>
+	<script type="text/javascript" src="../_00_static/js/remove.stuff.js"></script>
+	<script type="text/javascript" src="js/set.trial.js"></script>
+	<script type="text/javascript" src="../_00_static/js/set.stuff.js"></script>
+
+	<!-- CHECK ANSWERS -->
+	<script type="text/javascript" src="../_00_static/js/check.stuff.js"></script>
+
+	<!-- DATA -->
+	<script type="text/javascript" src="../_00_static/data/life.expectancy.data.js"></script>
+	<script type="text/javascript" src="../_00_static/data/unemployment.data.js"></script>
+	<script type="text/javascript" src="../_00_static/data/temperature.data.js"></script>
+	<!-- TABLE DATA -->
+	<script type="text/javascript" src="../_00_static/data/life.expectancy.table.data.js"></script>
+	<script type="text/javascript" src="../_00_static/data/unemployment.table.data.js"></script>
+	<script type="text/javascript" src="../_00_static/data/temperature.table.data.js"></script>
+
+	<!-- PATTERNS AND VALUES -->
+	<script type="text/javascript" src="../_00_static/patterns/patterns.bc.js"></script>	
+	<script type="text/javascript" src="../_00_static/patterns/z.bc.js"></script>	
+
+
+	<!-- CSS LIBS -->
+	<link rel="stylesheet" type="text/css" href="../_00_static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../_00_static/css/css.css">
+</head>
+
+<body>
+
+	<div id="container">
+
+		<div id="header" class="full-width header-height">
+			<p></p>
+		</div>
+
+		<div id="chart-container" class="full-width svg-height">
+		</div>
+
+		<div id="spacer" class="full-width spacer-height">
+			<p></p>
+		</div>
+
+		<div id="button-container" class="full-width btn-group">
+		</div>
+
+		<div id="footer" class="full-width footer-height">
+			<p class="timer"></p>
+			<p class="trialID" style="font-size:18px"></p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+
+		_life_expectancy.forEach(function(d){
+			var _future_date = parseInt(d.date)+800;
+			d.date = _future_date.toString();
+			return null;
+		});
+		_life_expectancy_table.forEach(function(d){
+			var _future_date = parseInt(d.date)+800;
+			d.date = _future_date.toString();
+			return null;
+		});
+		_unemployment_data.forEach(function(d){
+			var _split_date = d.date.split("/");
+			var _future_year = parseInt(_split_date[1])+800;
+			var _future_date = _split_date[0] + "/" + _future_year.toString();
+			d.date = _future_date;
+			return null;
+		});
+		_unemployment_data_table.forEach(function(d){
+			var _split_date = d.date.split("/");
+			var _future_year = parseInt(_split_date[1])+800;
+			var _future_date = _split_date[0] + "/" + _future_year.toString();
+			d.date = _future_date;
+			return null;
+		});
+		_temperature_data.forEach(function(d){
+			var _split_date = d.date.split("-");
+			var _future_year = parseInt(_split_date[2])+800;
+			var _future_date = _split_date[0] + "-" + _split_date[1] + "-" + _future_year.toString();
+			d.date = _future_date;
+			return null;
+		});
+		_temperature_data_table.forEach(function(d){
+			var _split_date = d.date.split("-");
+			var _future_year = parseInt(_split_date[2])+800;
+			var _future_date = _split_date[0] + "-" + _split_date[1] + "-" + _future_year.toString();
+			d.date = _future_date;
+			return null;
+		});
+
+		var _exp_lgth = 0;
+
+		d3.csv("_BC_design.csv",function(data){
+
+			_exp_lgth = data.length+1;
+
+			data = d3.nest()
+			.key(function(d){ return d.Block; })
+			.entries(data);
+
+			data = shuffleBLOCKS(data);
+			
+			data.forEach(function(d){
+				shuffleTRIALS(d.values);
+			});
+
+
+			for (var _i = 0; _i < data.length; _i++){
+				_ans_array[_i] = new Array(6);
+			};
+
+			// START AT SCENARIO	
+			d3.select("#header")
+			.style("height","585px")
+			.select("p")
+			.style("margin-top","200px");		
+			
+			setTimeout(function(){ return startSCENARIO(data) },500);
+
+		})
+		
+	</script>
+
+</body>
+
+</html>
